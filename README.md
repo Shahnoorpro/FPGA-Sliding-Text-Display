@@ -4,8 +4,8 @@
 This project is a Digital Logic Design implementation on a **Xilinx Spartan-3 FPGA**. It features a scrolling text display on a 4-digit 7-segment module. The system allows switching between two different Student IDs and includes pause/resume functionality.
 
 ## 📸 Block Diagram
-*(<img width="4096" height="2260" alt="image" src="https://github.com/user-attachments/assets/3e00d317-922d-49e0-8578-72f665f9ae72" />
-)*
+*<img width="4096" height="2260" alt="image" src="https://github.com/user-attachments/assets/3e00d317-922d-49e0-8578-72f665f9ae72" />
+*
 
 ### 🎯 Key Features
 * **Dual ID Support:** Toggles between Student 1 (`SP24-ELC-068`) and Student 2 (`SP24-ELC-087`).
@@ -34,6 +34,7 @@ The project is modularized into the following Verilog files:
 
 ### **Control & Timing**
 * `fsm_controller.v` - **Finite State Machine:** Manages RUN/STOP states for the scrolling.
+* `gen_mod_counter.v` - **Generic Counter:** A parameterized modulus counter used as the building block for timing generation.
 * `clock_divider_slide.v` - Generates the slow clock for text scrolling.
 * `clock_divider_tick.v` - Generates the fast clock for display multiplexing.
 * `edge_detector.v` - Detects button presses for the pause logic.
@@ -43,6 +44,7 @@ The project is modularized into the following Verilog files:
 * `rom_student_1.v` & `rom_student_2.v` - Look-Up Tables containing the hex codes for the student IDs.
 * `student_mux.v` - Multiplexer to select between the two ROM outputs.
 * `window_counter.v` - Tracks the current starting position of the text window.
+* `refresh_counter.v` - **Scan Counter:** Generates the 2-bit selector signal to cycle through the 4 digits.
 * `addr_calc.v` - Calculates the correct character address based on the window position.
 * `seven_seg_decoder.v` - Decodes the character data into 7-segment cathode signals.
 * `anode_logic.v` - Controls the active digit for multiplexing.
