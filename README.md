@@ -4,7 +4,8 @@
 This project is a Digital Logic Design implementation on a **Xilinx Spartan-3 FPGA**. It features a scrolling text display on a 4-digit 7-segment module. The system allows switching between two different Student IDs and includes pause/resume functionality.
 
 ## 📸 Block Diagram
-*(Upload your block diagram or a photo of the board here to make this section visual!)*
+*(<img width="4096" height="2260" alt="image" src="https://github.com/user-attachments/assets/3e00d317-922d-49e0-8578-72f665f9ae72" />
+)*
 
 ### 🎯 Key Features
 * **Dual ID Support:** Toggles between Student 1 (`SP24-ELC-068`) and Student 2 (`SP24-ELC-087`).
