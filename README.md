@@ -60,4 +60,4 @@ The project is modularized into the following Verilog files:
 ---
 
 ### 👤 Created By
-**Muhammad Shah Noor Ullah**  - connect with me on LinkedIn: [linkedin.com/in/proshahnoor](https://www.linkedin.com/in/proshahnoor)
+**Muhammad Shah Noor Ullah**  - connect with me on LinkedIn: [linkedin.com/in/mshahnoor](https://www.linkedin.com/in/mshahnoor)
