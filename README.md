@@ -51,7 +51,7 @@ The project is modularized into the following Verilog files:
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 1.  **Create Project:** Open Xilinx ISE (or supported tool) and create a new project for **Spartan-3 (XC3S200)**.
 2.  **Add Files:** Import all `.v` files from the `src` folder.
 3.  **Add Constraints:** Import `top.ucf` to assign pins correctly.
