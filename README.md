@@ -7,7 +7,7 @@ This project is a Digital Logic Design implementation on a **Xilinx Spartan-3 FP
 <img width="4096" height="2260" alt="image" src="https://github.com/user-attachments/assets/3e00d317-922d-49e0-8578-72f665f9ae72" />
 
 
-### 🎯 Key Features
+###  Key Features
 * **Dual ID Support:** Toggles between Student 1 (`SP24-ELC-068`) and Student 2 (`SP24-ELC-087`).
 * **Scrolling Text:** Characters scroll right-to-left using a custom window counter.
 * **Speed Control:** Scroll speed is managed by a dedicated clock divider (~3Hz).
